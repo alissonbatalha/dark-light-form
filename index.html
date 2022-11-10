@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dark | Ligth theme form</title>
+		<script src="https://kit.fontawesome.com/32454bb80f.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./css/style.css" type="text/css" media="all" />
+	</head>
+	<body>
+		<main class="container">
+			
+			<form class="login-form" action="" method="get" accept-charset="utf-8">
+				
+				<div class="form-header">
+					<h1>Login</h1>
+					<i id="moon-icon" class="fa-solid fa-moon"></i>
+				</div> <!-- form-header -->
+				
+				<div class="social-media">
+					<a href="#">
+						<img src="./img/logo-facebook.svg" alt="logo do facebook" />
+					</a>
+					<a href="#">
+						<img src="./img/logo-google.svg" alt="logo do google" />
+					</a>
+					<a href="#">
+						<img src="./img/logo-github.svg" alt="logo do github no modo light" class="github-light"/>
+						<img src="./img/logo-github-dark.svg" alt="logo do github no modo dark" class="github-dark"/>
+					</a>
+				</div> <!-- social-media -->
+				
+				<div class="inputs">
+					<div class="input-box">
+						<label for="name">
+							Name:
+							<div class="input-field">
+								<i class="fa-solid fa-user"></i>
+								<input type="text" name="name" id="name"/>
+							</div> <!-- input-field -->
+						</label> <!-- name -->
+					</div> <!-- input-box -->
+					<div class="input-box">
+						<label for="email">
+							Email:
+							<div class="input-field">
+								<i class="fa-solid fa-envelope"></i>
+								<input type="email" name="email" id="email" />
+							</div> <!-- input-field -->
+						</label> <!-- email -->
+					</div> <!-- input-box -->
+					<div class="input-box">
+						<label for="password">
+							Password:
+							<div class="input-field">
+								<i class="fa-solid fa-key"></i>
+								<input type="password" name="password" id="password" />
+							</div> <!-- input-field -->
+						</label> <!-- password -->
+					</div> <!-- input-box -->
+						<div class="forgot-password">
+							<a href="#">Forgot your password?</a>
+						</div> <!-- forgot-password -->
+					</div> <!-- inputs -->
+				
+				<button class="login-button" type="submit">Login</button>
+				
+			</form> <!-- login-form -->
+		</main>
+		<script src="script.js" type="text/javascript" charset="utf-8" defer></script>
+	</body>
+</html>
